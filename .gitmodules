@@ -1,0 +1,3 @@
+[submodule "Galaxy/Galaxy/OCSFW"]
+	path = Galaxy/Galaxy/OCSFW
+	url = https://github.com/psychopattt/OCSFW
