@@ -1,7 +1,5 @@
 #include "Galaxy.h"
 
-#include "glad/gl.h"
-
 #include "Shaders/Buffers/Texture/Texture.h"
 #include "Shaders/ComputeShader/ComputeShader.h"
 #include "Simulation/SimulationDrawer/SimulationDrawer.h"
@@ -23,13 +21,11 @@ void Galaxy::Initialize(int width, int height, unsigned int seed)
 	galaxyShader->SetInt("height", height);
 	galaxyShader->SetInt("width", width);
 	galaxyShader->SetInt("seed", seed);
-
-	Restart();
 }
 
 void Galaxy::Restart()
 {
-	glClearTexImage(texture->GetId(), 0, GL_RGBA, GL_FLOAT, NULL);
+	texture->Clear();
 }
 
 void Galaxy::Execute()
