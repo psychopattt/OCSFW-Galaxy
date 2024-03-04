@@ -5,7 +5,7 @@ layout(local_size_x = 8, local_size_y = 8, local_size_z = 1) in;
 uniform int width;
 uniform int height;
 uniform uint seed;
-layout(RGBA32F) restrict uniform image2D dataTexture;
+layout(rgba32f) restrict uniform image2D dataTexture;
 
 uint Random(uint state)
 {
