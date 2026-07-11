@@ -105,7 +105,6 @@
     <ClCompile Include="OCSFW\Source\Interface\FpsCounter\FpsCounter.cpp" />
     <ClCompile Include="OCSFW\Source\Interface\FpsLimiter\FpsLimiter.cpp" />
     <ClCompile Include="OCSFW\Source\Interface\ImGui\ImGuiHandler\ImGuiHandler.cpp" />
-    <ClCompile Include="OCSFW\Source\Interface\ImGui\ImGuiHandler\ProggyRegular.cpp" />
     <ClCompile Include="OCSFW\Source\Interface\ImGui\ImGuiWindow\ImGuiDebug\ImGuiDebug.cpp" />
     <ClCompile Include="OCSFW\Source\Interface\ImGui\ImGuiWindow\ImGuiLog\ImGuiLog.cpp" />
     <ClCompile Include="OCSFW\Source\Interface\ImGui\ImGuiWindow\ImGuiMain\ImGuiMain.cpp" />
@@ -120,6 +119,8 @@
     <ClCompile Include="OCSFW\Source\Shaders\Buffers\DualComputeBuffer\DualComputeBuffer.cpp" />
     <ClCompile Include="OCSFW\Source\Shaders\Buffers\Texture\Texture.cpp" />
     <ClCompile Include="OCSFW\Source\Shaders\ComputeShader\ComputeShader.cpp" />
+    <ClCompile Include="OCSFW\Source\Shaders\ShaderMerger\ShaderMerger.cpp" />
+    <ClCompile Include="OCSFW\Source\Shaders\ShaderMinifier\ShaderMinifier.cpp" />
     <ClCompile Include="OCSFW\Source\Shaders\ShaderProvider\ShaderProvider.cpp" />
     <ClCompile Include="OCSFW\Source\Shaders\Shader\Shader.cpp" />
     <ClCompile Include="OCSFW\Source\Simulation\Simulation.cpp" />
@@ -169,6 +170,8 @@
     <ClInclude Include="OCSFW\Source\Shaders\Buffers\DualComputeBuffer\DualComputeBuffer.h" />
     <ClInclude Include="OCSFW\Source\Shaders\Buffers\Texture\Texture.h" />
     <ClInclude Include="OCSFW\Source\Shaders\ComputeShader\ComputeShader.h" />
+    <ClInclude Include="OCSFW\Source\Shaders\ShaderMerger\ShaderMerger.h" />
+    <ClInclude Include="OCSFW\Source\Shaders\ShaderMinifier\ShaderMinifier.h" />
     <ClInclude Include="OCSFW\Source\Shaders\ShaderProvider\ShaderProvider.h" />
     <ClInclude Include="OCSFW\Source\Shaders\Shader\Shader.h" />
     <ClInclude Include="OCSFW\Source\Simulation\Simulation.h" />

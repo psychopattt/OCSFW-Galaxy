@@ -18,9 +18,9 @@ void Galaxy::Initialize(int width, int height, unsigned int seed)
 
 	galaxyShader = make_unique<ComputeShader>("Galaxy", width, height);
 	galaxyShader->SetTextureBinding("dataTexture", texture->GetId());
-	galaxyShader->SetInt("height", height);
-	galaxyShader->SetInt("width", width);
-	galaxyShader->SetInt("seed", seed);
+	galaxyShader->SetUniform("height", height);
+	galaxyShader->SetUniform("width", width);
+	galaxyShader->SetUniform("seed", seed);
 }
 
 void Galaxy::Restart()
